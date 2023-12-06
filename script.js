@@ -5,7 +5,7 @@ let btnFetchAsyncAwait = document.getElementById('fetchAsyncAwaitSearch');
 let searchText = document.querySelector('header input[type="text"]');
 let searchResults = document.getElementById("searchResults");
 
-const clientId = "YOUR_CLIENT_ID"; // Replace with your Imgur client ID
+const clientId = "a4b616e1ef60967"; // Replace with your Imgur client ID
 
 btnXHR.addEventListener("click", function () {
     // clear previous search results
