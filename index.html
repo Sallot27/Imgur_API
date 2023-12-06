@@ -27,12 +27,11 @@
 
 <body>
     <header>
-        <input id="albumIdField" value="Jfni3" type="text" placeholder="Enter any imgur's album id">
-        <button onclick="requestAlbum()">View Images</button>
-    <button id="fetchWithPromisesButton">Fetch with Promises</button>
-    <button id="fetchWithAsyncAwaitButton">Fetch with Async/Await</button>
-
-  </header>
-    <div id="imageContainer"></div>
+        <input type="text" placeholder="Enter album ID" id="albumIdField">
+        <button id="xhrSearch">XHR Search</button>
+        <button id="fetchSearch">Fetch Search</button>
+        <button id="fetchAsyncAwaitSearch">Fetch with Async/Await Search</button>
+    </header>
+    <div id="searchResults"></div>
 </body>
 </html>
