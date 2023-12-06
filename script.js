@@ -1,4 +1,3 @@
-//const clientId = "ca6139e49c5bf36";
 const clientId = "a4b616e1ef60967";
 var defaultAlbumId = 'Jfni3';
 
@@ -51,7 +50,6 @@ function requestImage(imageHash) {
 function processImageRequest(respObj) {
     let imgElem = document.createElement("img");
     imgElem.src = respObj.data.link;
-    //imgElem.referrerpolicy="no-referrer";
     document.body.appendChild(imgElem);
 }
 
