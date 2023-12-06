@@ -72,3 +72,5 @@ async function fetchWithAsyncAwait() {
         console.log("Error with the imgur API:", error);
     }
 }
+
+window.addEventListener("load", requestAlbum);
