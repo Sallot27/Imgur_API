@@ -6,7 +6,7 @@ document.getElementById("fetchWithPromisesButton").addEventListener("click", fet
 document.getElementById("fetchWithAsyncAwaitButton").addEventListener("click", fetchWithAsyncAwait);
 
 function requestAlbum() {
-    let albumId = document.getElementById("albumIdField").innerText;
+    let albumId = document.getElementById("albumIdField").value;
 
     if (!albumId) {
         albumId = defaultAlbumId;
